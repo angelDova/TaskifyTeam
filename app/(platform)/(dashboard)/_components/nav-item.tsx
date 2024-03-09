@@ -11,6 +11,7 @@ import { cn } from "@/lib/utils";
 import { Activity, CreditCard, Layout, Settings } from "lucide-react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import { Skeleton } from "@/components/ui/skeleton";
 
 export type Organization = {
   id: string;
@@ -54,7 +55,7 @@ export const NavItem = ({
     {
       label: "Billing",
       icon: <CreditCard className="h-4 w-4 mr-2" />,
-      href: `/organization/${organization.id}/settings`,
+      href: `/organization/${organization.id}/billing`,
     },
   ];
 
@@ -101,5 +102,16 @@ export const NavItem = ({
         ))}
       </AccordionContent>
     </AccordionItem>
+  );
+};
+
+NavItem.Skeleton = function SkeletonNavItem() {
+  return (
+    <div className="flex items-center gap-x-2">
+      <div className="h-10 w-10 relative shrink-0">
+        <Skeleton className="h-full w-full absolute" />
+      </div>
+      <Skeleton className="h-10 w-full" />
+    </div>
   );
 };

@@ -13,7 +13,13 @@ const Logo = () => {
   return (
     <Link href={"/"}>
       <div className="hover:opacity-75 transition items-center gap-x-2 hidden md:flex">
-        <Image src={"/logo.svg"} alt="Logo" height={30} width={30} />
+        <Image
+          src={"/logo.svg"}
+          alt="Logo"
+          height={30}
+          width={30}
+          className="w-auto h-auto"
+        />
         <p className={cn("text-lg pb-1", headingFont.className)}>Taskify</p>
       </div>
     </Link>
