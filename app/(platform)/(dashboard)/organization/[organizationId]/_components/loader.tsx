@@ -2,10 +2,10 @@ const Loader = () => {
   return (
     <div>
       <CutoutTextLoader
-        height="450px"
+        height="850px"
         background="white"
         // NOTE: Using GIFs for the background looks super cool :)
-        imgUrl="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWp1cTRtZHg1MHJ0ZmM5aGJvbTJzNDRvdGR6OTJzcHQzM3RzdmtleCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Xg5Y9xQVDoaELVamsl/giphy.gif"
+        imgUrl="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDZ2cjhhNHNoN281NXM5a29jY3Aybm96NDNsdjF3dXltZTZiZTZ6MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RgzryV9nRCMHPVVXPV/giphy.gif"
       />
     </div>
   );

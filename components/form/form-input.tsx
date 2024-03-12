@@ -20,7 +20,7 @@ type Props = {
   onBlur?: () => void;
 };
 
-const FormInput = forwardRef<HTMLInputElement, Props>(
+export const FormInput = forwardRef<HTMLInputElement, Props>(
   (
     {
       id,
@@ -66,5 +66,3 @@ const FormInput = forwardRef<HTMLInputElement, Props>(
   }
 );
 FormInput.displayName = "FormInput";
-
-export default FormInput;

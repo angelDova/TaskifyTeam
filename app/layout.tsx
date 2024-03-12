@@ -36,7 +36,7 @@ export default function RootLayout({
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
-          themes={["light", "dark", "linear-gradient", "twitchish"]}
+          themes={["light", "dark", "linear-gradient", "twitchish", "purple"]}
         >
           {children}
         </ThemeProvider>

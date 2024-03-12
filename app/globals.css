@@ -131,6 +131,37 @@ body,
     --warning-content: #474700;
     --error-content: #ffffff;
   }
+
+  .purple {
+    --background: 287 65% 4%;
+    --foreground: 287 10% 97.5%;
+
+    --muted: 287 50% 15%;
+    --muted-foreground: 287 10% 55%;
+
+    --popover: 287 45% 6.5%;
+    --popover-foreground: 287 10% 97.5%;
+
+    --card: 287 45% 6.5%;
+    --card-foreground: 287 10% 97.5%;
+
+    --border: 287 50% 15%;
+    --input: 287 50% 15%;
+
+    --primary: 287 100% 50%;
+    --primary-foreground: 287 10% 5%;
+
+    --secondary: 287 50% 15%;
+    --secondary-foreground: 287 10% 97.5%;
+
+    --accent: 287 50% 15%;
+    --accent-foreground: 287 10% 97.5%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 287 10% 97.5%;
+
+    --ring: 287 100% 50%;
+  }
 }
 
 @layer base {
