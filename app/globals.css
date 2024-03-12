@@ -105,6 +105,40 @@ body,
 
     --ring: 230 100% 42%;
   }
+
+  .linear-gradient-2 {
+    --background: 223 100% 98.46%;
+    --foreground: 223 10% 0.92%;
+
+    --muted: 223 10% 92.3%;
+    --muted-foreground: 223 5% 42.3%;
+
+    --popover: 223 10% 92.3%;
+    --popover-foreground: 223 10% 1.1500000000000001%;
+
+    --card: 223 10% 92.3%;
+    --card-foreground: 223 10% 1.1500000000000001%;
+
+    --border: 223 15% 89.92%;
+    --input: 223 15% 89.92%;
+
+    --primary: 223 100% 23%;
+    --primary-foreground: 223 2% 92.3%;
+
+    --secondary: 223 5% 96.15%;
+    --secondary-foreground: 223 7% 12.3%;
+
+    --accent: 223 5% 96.15%;
+    --accent-foreground: 223 7% 12.3%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --ring: 223 100% 23%;
+
+    --radius: 0.5rem;
+  }
+
   .twitchish {
     --primary: #9147ff;
     --primary-content: #ffffff;
