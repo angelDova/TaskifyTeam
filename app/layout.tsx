@@ -40,7 +40,6 @@ export default function RootLayout({
             "light",
             "dark",
             "linear-gradient",
-            "twitchish",
             "purple",
             "linear-gradient-2",
           ]}
