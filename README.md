@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Fullstack Trello Clone: Next.js 14, Server Actions, React, Prisma, Stripe, Tailwind, MySQL
+![alt text](https://private-user-images.githubusercontent.com/23248726/282673275-fd260249-82fa-4588-a67a-69bb4eb09067.png?jwt%3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTA0Nzc0MjcsIm5iZiI6MTcxMDQ3NzEyNywicGF0aCI6Ii8yMzI0ODcyNi8yODI2NzMyNzUtZmQyNjAyNDktODJmYS00NTg4LWE2N2EtNjliYjRlYjA5MDY3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMTUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzE1VDA0MzIwN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWI5M2ViMTEwNTc5MzQ4ZTJjYjI1ZDY5ZmI0YjVkYjU1M2EwZjYwYjhmZGNjNTRjMjc4NTZjNzE1MGFlNDcxZjImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.VH85Ps3-M5kBC58vL0EQ6pp242L25pXoWpqimVrA4E8)
 
-## Getting Started
+This is a repository for Fullstack Trello Clone: Next.js 14, Server Actions, React, Prisma, Stripe, Tailwind, MySQL
 
-First, run the development server:
+Key Features:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+-Auth
+-Organizations / Workspaces
+-Board creation
+-Unsplash API for random beautiful cover images
+-Activity log for entire organization
+-Board rename and delete
+-List creation
+-List rename, delete, drag & drop reorder and copy
+-Card creation
+-Card description, rename, delete, drag & drop reorder and copy
+-Card activity log
+-Board limit for every organization
+-Stripe subscription for each organization to unlock unlimited boards
+-Landing page
+-MySQL DB
+-Prisma ORM
+-shadcnUI & TailwindCSS
