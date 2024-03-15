@@ -7,9 +7,11 @@ import Image from "next/image";
 import { CreditCard } from "lucide-react";
 import { Skeleton } from "@/components/ui/skeleton";
 
-type Props = {};
+interface InfoProps {
+  isPro: boolean;
+}
 
-const Info = (props: Props) => {
+const Info = ({ isPro }: InfoProps) => {
   const { organization, isLoaded } = useOrganization();
 
   if (!isLoaded) return <Loader />;
@@ -26,9 +28,9 @@ const Info = (props: Props) => {
       </div>
       <div className="space-y-1">
         <p className="font-semibold text-xl">{organization?.name}</p>
-        <div className="">
-          <CreditCard className="h-3 w-3 mr-1" />
-          Free
+        <div className="flex items-center text-sm ">
+          <CreditCard className="h-3 w-3 mr-2" />
+          {isPro ? "Pro" : "Free"}
         </div>
       </div>
     </div>
