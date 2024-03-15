@@ -8,6 +8,8 @@ import { db } from "@/lib/db";
 import { UpdateCard } from "./schema";
 import { InputType, ReturnType } from "./types";
 import { CreateSafeAction } from "@/lib/create-safe-action";
+import { createAuditLog } from "@/lib/ceate-audit-log";
+import { ACTION, ENTITY_TYPE } from "@prisma/client";
 // import { createAuditLog } from "@/lib/create-audit-log";
 // import { ACTION, ENTITY_TYPE } from "@prisma/client";
 
@@ -38,12 +40,12 @@ const handler = async (data: InputType): Promise<ReturnType> => {
       },
     });
 
-    // await createAuditLog({
-    //   entityTitle: card.title,
-    //   entityId: card.id,
-    //   entityType: ENTITY_TYPE.CARD,
-    //   action: ACTION.UPDATE,
-    // });
+    await createAuditLog({
+      entityTitle: card.title,
+      entityId: card.id,
+      entityType: ENTITY_TYPE.CARD,
+      action: ACTION.UPDATE,
+    });
   } catch (error) {
     return {
       error: "Failed to update.",
